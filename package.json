@@ -1,0 +1,33 @@
+{
+  "name": "anime-gql",
+  "version": "1.0.0",
+  "description": "Api contruido con Graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredo09/anime-gql.git"
+  },
+  "keywords": [
+    "anime",
+    "gql",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredo09/anime-gql/issues"
+  },
+  "homepage": "https://github.com/fredo09/anime-gql#readme",
+  "dependencies": {
+    "apollo-server": "^2.25.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "uuid": "^8.3.2"
+  }
+}
