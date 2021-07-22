@@ -15,9 +15,20 @@ const typeDefs = gql`
         descripcion: String
     }
 
+    input AnimeInput {
+        name: String!
+        anioCreacion: String!
+        autor:String!
+        descripcion: String!
+    }
+
    type Query {
        # Anime
-        getAnime: Anime
+        getAnimes: [Anime]
+    }
+
+    type Mutation{
+        newAnime (input: AnimeInput) : Anime
     }
 `;
 
